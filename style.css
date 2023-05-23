@@ -1,0 +1,51 @@
+body { 
+    background-color: #9BA4B5;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+    
+    *{
+        box-sizing: board-box;
+    }
+    
+    .flex-container {
+        display: flex;
+    }
+    
+    .about-me {
+        background-color: #394867;
+        border: #0a0000 solid 2px;
+        margin: 30px;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+        flex: 1;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+    
+    .projects {
+        background-color: #394867;
+        border: #0a0000 solid 2px;
+        margin: 30px;
+        padding: 5px;
+        border-radius: 10px;
+        text-align: center;
+        flex: 1;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+.bio {
+        background-color: #394867;
+        box-sizing: border-box;
+        border: #0a0000 solid 2px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 20px;
+        text-align: center;
+        flex: 1;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        inline-size: 875px;
+        overflow-wrap: break-word;
+}
